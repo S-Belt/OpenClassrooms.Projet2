@@ -1,0 +1,68 @@
+body
+{
+	margin: 40px;
+	font-family: 'Raleway', Arial, sans-serif;
+  	font-weight: small;
+    font-style: small;
+    
+}
+/* Header */
+header
+{
+    background: url('images/logo/reservia.svg') no-repeat;
+    display: block;
+    color: black;
+
+}
+/* Navigation */
+nav
+{
+	display: flex;
+	align-items: baseline;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav li
+{
+  margin-right: 50px;
+
+}
+
+nav a
+{
+    font-size: 1.3em;
+    padding-top: 54px;
+    text-decoration: none;
+    color: grey;
+
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+
+}
+/* Simulation du survol d'Hebergements */
+.hebergements
+{
+	color: blue;
+	border-top: 2px solid #0065FC;
+
+}
+
+.login
+{
+	color: blue;
+
+}
+
