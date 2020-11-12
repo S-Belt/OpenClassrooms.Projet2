@@ -76,3 +76,64 @@ header h3
 	font-size: 14px;
 	color: grey;
 }
+
+#recherche
+{
+	width: 30px;
+  height: 40px;
+}
+
+#recherche p
+{
+  display: flex;
+  align-items: baseline;
+  flex-flow: row nowrap;
+
+}
+
+#filtres
+{
+  display: flex;
+  font-size: 15px;
+  align-items: baseline;
+  flex-flow: row nowrap;
+  font-weight: bold;
+
+}
+
+#filtres ul
+{
+    list-style-type: none;
+    display: flex;
+
+}
+
+#filtres li
+{
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#filtres a
+{
+    font-size: 1em;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #bdc3c7;
+    border-radius: 50px;
+
+}
+
+#filtres a:hover
+{
+  background-color: #F2F2F2;
+  color: #0065FC;
+  border: 2px solid #0065FC;
+}
+#filtres h1
+{
+  font-size: 20px;
+}
+
+
