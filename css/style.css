@@ -50,7 +50,7 @@ a /* deco liens visités */
   text-decoration: none;
 }
 
-a:visited
+a, li, h4:visited
 { 
   color: black;
 }
