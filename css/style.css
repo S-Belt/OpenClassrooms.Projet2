@@ -1,6 +1,5 @@
 body
 {
-/*	padding: 3%;*/
   padding-left: 3%;
   padding-right: 3%;
 
@@ -11,6 +10,7 @@ body img
 {
 position: absolute;
 margin-top: 1.5rem;
+width: 6rem;
 }
 
 h1 /* parametres H1 a H5 */
@@ -133,7 +133,6 @@ nav a:hover
 
 #search2
 {
-  width: 13rem;
   height: 2.3rem;
   padding-left: 0.5rem;
   font-size: 0.9em;
@@ -164,7 +163,6 @@ nav a:hover
   background-color: #0065FC;
   border-radius: 0 12px 12px 0;
 }
-
 
 #ville 
 {
@@ -431,7 +429,7 @@ aside h3
   border-radius: 20px;
   margin: auto;
   box-shadow: 1px 1px 10px #dce0e6;
-  padding: 1.5%;
+  padding: 1%;
   margin-top: -1%;
 }
 
@@ -819,12 +817,12 @@ footer a:visited
  nav
  {
   padding-top: 0;
-  color: #0065FC;
   border-top: 0;
  }
 
  nav a
  {
+
   font-size: 0.9em;
   padding-top: 1rem;
   text-align: center;
@@ -859,7 +857,7 @@ nav li
 
  nav li:hover
 {
-  color: #0065FC;
+/*  color: #0065FC;*/
   border-top: 0;
   border-bottom: 3px solid #0065FC;
   padding-bottom: 1rem;
@@ -893,7 +891,6 @@ nav li
 
  .hebergements
  {
-  color: #0065FC;
   border-top: 0;
   width: 50%;
  }
@@ -998,6 +995,7 @@ nav li
  {
   width: 95%;
   margin: auto;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   font-weight: bold;
@@ -1069,11 +1067,15 @@ nav li
  .box1
  {
    width: 100%;
+   margin-top: 0;
  }
 
  .box2
  {
   width: 88%;
+  height: 9rem;
+  margin-bottom: 1rem;
+  padding: 1.5%;
  }
 
  .box2 h4
@@ -1130,6 +1132,7 @@ nav li
   font-weight: bold;
   font-size: 1.5em;
   margin-left: 5%;
+  margin-top: 0;
  }
 
  section h4
@@ -1154,8 +1157,6 @@ nav li
   height: 8.5rem;
   width: 100%;
  }
-
-
 
  /* ===== Footer ===== */
 
@@ -1182,8 +1183,8 @@ nav li
   font-size: 1.2em;
  }
 
-#help
-{
+ #help
+ {
   margin-bottom: 1.5rem;
-}
+ }
 }
