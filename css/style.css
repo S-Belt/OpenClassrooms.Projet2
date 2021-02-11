@@ -253,6 +253,8 @@ nav a:hover
   font-size: 1.3em;
   color: white;
   background-color: #0065FC;
+  background-size: cover;
+  background-position: 50%;
   margin-right: 10px;
   border-radius: 50%;
   border: solid 1px #bdc3c7;
@@ -949,7 +951,7 @@ nav li
 {
  border: 1px solid #F2F2F2;
  height: 3.2rem;
- width: auto;
+ width: 100%;
  font-size: 1.1em;
  font-weight: bold;
 }
