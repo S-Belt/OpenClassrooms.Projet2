@@ -371,11 +371,11 @@ article h3
   margin-top: 0.2rem;
 }
 
-.star
-{
-  margin-top: -0.4rem;
+ .star
+ {
+  margin-top: auto;
   padding-bottom: 0.5rem;
-}
+ }
 
 .box1 i.fg
 {
@@ -724,8 +724,8 @@ footer a:visited
 
   body
   {
-    padding: 0;
-    margin: 0;
+   padding: 0;
+   margin: 0;
   }
 
   body img
@@ -737,15 +737,15 @@ footer a:visited
 
   header
   {
-    width: 100%;
-    margin: auto;
-    margin-top: 5%;
+   width: 100%;
+   margin: auto;
+   margin-top: 5%;
   }
 
   nav
   {
-    flex-direction: column-reverse;
-    width: 100%;
+   flex-direction: column-reverse;
+   width: 100%;
   }
 
   aside
@@ -763,14 +763,13 @@ footer a:visited
   width: 100%;
   background-color: white;
   flex-direction: column;
-  height: 88rem;
   justify-content: space-around;
   margin-top: 1.5rem;
  }
 
  article a
  {
-  height: 12rem;
+  height: 12.5rem;
  }
 
  article h3
@@ -824,7 +823,6 @@ footer a:visited
 
  nav a
  {
-
   font-size: 0.9em;
   padding-top: 1rem;
   text-align: center;
@@ -859,7 +857,7 @@ nav li
 
  nav li:hover
 {
-/*  color: #0065FC;*/
+  color: #0065FC;
   border-top: 0;
   border-bottom: 3px solid #0065FC;
   padding-bottom: 1rem;
@@ -1044,6 +1042,7 @@ nav li
   height: 1.2rem;
  }
 
+
  /* ===== Hebergements ===== */
 
  #hebergements
@@ -1098,6 +1097,8 @@ nav li
  .photo1
  {
   height: 6rem;
+  margin: 0.5rem;
+  background-position: center;
  }
 
  .hotel1
@@ -1154,11 +1155,35 @@ nav li
    margin-top: 2rem;
  }
 
- .photo3, .photo5, .photo6, .photo7
+  .photo3, .photo5, .photo6, .photo7
  {
   height: 8.5rem;
   width: 100%;
  }
+
+ /* ===== Position Photos d'Activités ===== */
+
+  .photo3
+ {
+  background-position: 50% 30%;
+ }
+
+ .photo5
+ {
+  background-position: 50% 50%;
+ }
+
+ .photo6
+ {
+  background-position: 60% 30%;
+ }
+
+ .photo7
+ {
+  background-position: 50% 30%;
+ }
+
+
 
  /* ===== Footer ===== */
 
